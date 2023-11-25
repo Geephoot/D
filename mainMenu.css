@@ -12,19 +12,22 @@
     width: 100%;
     height: 50px;
     color: #ffffff;
+    padding: 0px 20%;
+    position: fixed;
+    z-index: 3;
   }
   .mainMenu__block {
     height: 50px;
+    min-width: 50%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: start;
     align-items: center;
-    padding: 0px 20%;
   }
   .mainMenu__items {
-    padding-left: 10%;
+    padding-left: 5%;
     height: 50px;
-    width: 40%;
+    width: auto;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -108,21 +111,8 @@
   }/*# sourceMappingURL=mainMenu.css.map */
 
 
-  @media screen and (max-width: 900px){
+  @media screen and (max-width: 700px){
     .mainMenu__items {
-      height: 50px;
-      width: 40%;
-      display: flex;
-      flex-flow: row nowrap;
-      justify-content: center;
-      align-items: center;
-    }
-    .mainMenu__block {
-      height: 50px;
-      display: flex;
-      flex-flow: row nowrap;
-      justify-content: start;
-      align-items: center;
-      padding: 0px 5%;
+      padding-left: 0%;
     }
   }

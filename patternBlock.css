@@ -25,7 +25,7 @@ body {
   justify-self: start;
 }
 .patternBlock__color2{
-  background: ;
+  background: #bbbbbb;
   width: 100%;
   min-height: 440px;
   display: flex;
@@ -58,7 +58,7 @@ body {
   border-radius: 0px;
   color: #ffffff;
   text-shadow: 0px 0px 5px #fff;
-  box-shadow: 0px 0px 8px 1px #fff;
+  box-shadow: 0px 0px 8px 1px #000000;
   position: relative;
   top: -15px;
 }
