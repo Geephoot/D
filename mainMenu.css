@@ -113,20 +113,5 @@
   }/*# sourceMappingURL=mainMenu.css.map */
 
 
-  @media screen and (max-width: 700px){
-    .mainMenu{
-      height: 100px;
-    }
-    .mainMenu__block {
-      height: 100px;
-      min-width: 50%;
-      display: flex;
-      flex-flow: column nowrap;
-      justify-content: start;
-      align-items: center;
-    }
-    .mainMenu__items {
-      padding-left: 0%;
-    }
-  }
-  }
+
+  
