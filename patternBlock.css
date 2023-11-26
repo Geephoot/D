@@ -85,12 +85,23 @@ body {
   display: flex;
   justify-content: start;
   align-items: center;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 @media screen and (max-width: 700px) {
   .patternBlock__about1{
+
+    max-width: 90%;
+
+  }
+  .patternBlock__about{
+
+    max-width: 90%;
+
+  }
+  .patternBlock__about1{
     color:#fff;
     padding: 100px 0px 20px 0px;
     min-height: 320px;
+}
 }
