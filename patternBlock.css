@@ -1,6 +1,7 @@
 * {
   padding: 0px;
   margin: 0px;
+  text-decoration: none;
 }
 
 body {
@@ -40,7 +41,10 @@ body {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  justify-self: start;
+  justify-content: center;
+}
+.patternBlock__color3 span{
+  font-size: 30px;
 }
 
 .patternBlock__block {
@@ -95,10 +99,34 @@ body {
   max-width: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   font-size: 25px;
 
+}
+.patternBlock__button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: solid 4px rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  color: #000;
+}
+.patternBlock__button:hover{
+  background: rgb(0, 0, 0);
+  color: #ffffff;
+}
+.patternBlock__contacts{
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.patternBlock__contacts a{
+  color: #fff;
 }
 
 @media screen and (max-width: 700px) {
